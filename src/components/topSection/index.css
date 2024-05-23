@@ -1,0 +1,186 @@
+@media (max-width: 990px) {
+  .top-section-container {
+    background-color: #f3f8fe;
+    padding: 10px;
+  }
+  .top-section-left-container {
+    padding: 10px;
+  }
+  .top-section-right-container {
+    padding: 20px;
+  }
+  .top-section-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .top-section-description {
+    font-family: "Roboto";
+  }
+  .top-section-parts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  ul {
+    list-style-type: none;
+    padding: none;
+    margin: none;
+  }
+  li {
+    list-style-type: none;
+    padding: none;
+    margin: none;
+  }
+
+  .btn-style-color {
+    background-color: #34107a;
+    font-size: 13px;
+  }
+  .btn-style {
+    font-size: 13px;
+  }
+  .top-section-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-section-each-part-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 100px;
+    width: 47%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .top-section-each-part-emoji {
+    font-size: 25px;
+    margin-right: 25px;
+    color: #34107a;
+    margin-top: -20px;
+  }
+  .top-section-each-part-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-section-each-part-name {
+    color: #34107a;
+    font-family: "Roboto";
+  }
+  .top-section-each-part-count {
+    color: #34107a;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  button {
+    margin: 5px;
+  }
+}
+
+@media (min-width: 991px) {
+  .top-section-container {
+    background-color: #f3f8fe;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .top-section-left-container {
+    padding: 0px;
+    width: 60%;
+  }
+  .top-section-right-container {
+    padding: 10px;
+    width: 40%;
+  }
+  .top-section-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .top-section-description {
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .top-section-parts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .btn-style-color {
+    background-color: #34107a;
+    font-size: 15px;
+  }
+  .btn-style {
+    font-size: 15px;
+  }
+  .top-section-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .top-section-each-part-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 100px;
+    width: 20%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .top-section-each-part-emoji {
+    font-size: 25px;
+    margin-right: 25px;
+    color: #34107a;
+    margin-top: -20px;
+  }
+  .top-section-each-part-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-section-each-part-name {
+    color: #34107a;
+    font-family: "Roboto";
+  }
+  .top-section-each-part-count {
+    color: #34107a;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  button {
+    margin: 5px;
+  }
+}

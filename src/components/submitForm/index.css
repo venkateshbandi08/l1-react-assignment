@@ -1,0 +1,24 @@
+.form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px #34107a solid;
+  border-top: 3px #34107a solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+.form-input-container {
+  font-family: "Roboto";
+  margin: 10px;
+  border: 1px gray solid;
+  padding: 2px;
+  padding-left: 5px;
+  border-radius: 4px;
+  height: 40px;
+}
+.form-button {
+  background-color: #34107a;
+  border-radius: 4px;
+}

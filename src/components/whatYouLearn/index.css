@@ -1,0 +1,113 @@
+@media (max-width: 990px) {
+  .wyl-container {
+    padding: 10px;
+  }
+  .wyl-heading {
+    font-family: "Roboto";
+    color: #34107a;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 25px;
+  }
+  .wyl-each-card-container {
+    background-color: #f3f8fe;
+    font-family: "Roboto";
+    border: 1px #34107a solid;
+    margin: 5px;
+  }
+  .wyl-each-card-top {
+    background-color: #34107a;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .wyl-each-card-middle {
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  .wyl-each-card-bottom {
+    background-color: #34107a;
+    font-family: "Roboto";
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  li {
+    list-style-type: disc;
+  }
+  .list-sub-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #34107a;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 991px) {
+  .wyl-container {
+    padding: 10px;
+  }
+  .wyl-heading {
+    font-family: "Roboto";
+    color: #34107a;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 25px;
+  }
+  .wyl-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wyl-each-card-container {
+    background-color: #f3f8fe;
+    font-family: "Roboto";
+    border: 1px #34107a solid;
+    margin: 5px;
+    margin-right: 10px;
+  }
+  .wyl-each-card-top {
+    background-color: #34107a;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  .wyl-each-card-middle {
+    height: 400px;
+    width: 450px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .wyl-each-card-bottom {
+    background-color: #34107a;
+    font-family: "Roboto";
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  li {
+    list-style-type: disc;
+  }
+  .list-sub-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #34107a;
+    margin-top: 10px;
+  }
+}

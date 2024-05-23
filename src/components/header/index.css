@@ -1,0 +1,53 @@
+@media (max-width: 991.98px) {
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+}
+
+.nav-heading {
+  margin-right: 30px;
+  font-size: 25px;
+}
+.nav-alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-container {
+  background-color: #34107a;
+}
+
+.nav-item {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  color: #9e8989;
+}
+
+.nav-item.active {
+  color: #ffffff !important; /* Ensure the active nav item remains white */
+}
+
+.nav-button {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  font-family: "Roboto";
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+  color: #9e8989;
+}
+
+.custom-toggler {
+  border-color: transparent;
+}

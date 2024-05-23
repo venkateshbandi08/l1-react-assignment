@@ -1,0 +1,101 @@
+@media (max-width: 990px) {
+  .eligibility-cards-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .each-eligibility-card-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #34107a solid;
+    border-top: 4px #34107a solid;
+    padding: 20px;
+    width: 47%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .eligibility-top-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .eligibility-heading {
+    color: #34107a;
+    font-family: "Roboto";
+    margin-top: 3px;
+  }
+  .eligibility-description {
+    font-family: "Roboto";
+  }
+  .eligibility-emoji {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #34107a;
+    margin-right: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 991px) {
+  .eligibility-cards-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .each-eligibility-card-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #34107a solid;
+    border-top: 4px #34107a solid;
+    padding: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 20%;
+  }
+  .eligibility-top-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .eligibility-heading {
+    color: #34107a;
+    font-family: "Roboto";
+    margin-top: 3px;
+  }
+  .eligibility-description {
+    font-family: "Roboto";
+  }
+  .eligibility-emoji {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #34107a;
+    margin-right: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}

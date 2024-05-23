@@ -1,0 +1,104 @@
+@media (max-width: 990px) {
+  .why-choose-us-section-container {
+    margin-top: 5px;
+    padding: 15px;
+  }
+  .wcu-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+  }
+  .wcu-cards-container {
+  }
+  .wcu-each-card-container {
+    background-color: #f3f8fe;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .wcu-image {
+    color: #34107a;
+    font-size: 35px;
+    margin: 10px;
+  }
+  .wcu-name {
+    font-family: "Roboto";
+    color: #34107a;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .wcu-description {
+    font-family: "Roboto";
+    margin: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 991px) {
+  .why-choose-us-section-container {
+    margin-top: 5px;
+    padding: 15px;
+  }
+  .wcu-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+  }
+  .wcu-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .wcu-each-card-container {
+    background-color: #f3f8fe;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 20px;
+  }
+  .wcu-image {
+    color: #34107a;
+    font-size: 55px;
+    margin: 10px;
+  }
+  .wcu-name {
+    font-family: "Roboto";
+    color: #34107a;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .wcu-description {
+    font-family: "Roboto";
+    margin: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
