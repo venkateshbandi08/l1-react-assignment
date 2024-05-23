@@ -15,8 +15,7 @@
     border: 1px #34107a solid;
     border-top: 4px #34107a solid;
     padding: 20px;
-    width: 47%;
-    height: 120px;
+    width: 100%;
     margin-right: 5px;
     margin-bottom: 5px;
   }
@@ -31,7 +30,6 @@
   }
   .eligibility-description {
     font-family: "Roboto";
-    text-align: center;
   }
   .eligibility-emoji {
     font-size: 20px;
@@ -83,7 +81,6 @@
   }
   .eligibility-description {
     font-family: "Roboto";
-    text-align: center;
   }
   .eligibility-emoji {
     font-size: 20px;
